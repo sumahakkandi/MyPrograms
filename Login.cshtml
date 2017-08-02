@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<div class="row">
+<div class="col-xs-2 col-md-2">
+<input class="form-control" name="firstname" placeholder="First Name" type="text"
+               required autofocus />
+</div>
+</div>
+
+<div class="col-xs-2 col-md-2">
+<input class="form-control" name="password" placeholder="Password" type="password" required />
+</div>
+
+<button class="btn btn-primary" type="submit" value="login">
+login
+
+ 
+</button>
+
+@Html.ActionLink("NEW User? Sign Up", "Index", "Home", null)
+
